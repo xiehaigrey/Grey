@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,10 +35,18 @@
         .bold {
             font-weight: bold;
         }
+        .quit-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background: lightgray;
+            border: none;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 <body>
-    <img src="file:///Users/serhiiantypov/Desktop/test/WechatIMG23.jpg" alt="Institute Logo" class="logo">
+    <img src="logo.png" alt="Institute Logo" class="logo">
     <h1>QR Certification <strong>Verification</strong></h1>
     
     <div class="certificate">
@@ -48,5 +56,9 @@
         <p>The Master 150 Hour TEFL/TESOL Certification</p>
         <p><span class="bold">Award Date:</span> 09/16/2024</p>
     </div>
+
+    <button class="quit-button">QUIT</button>
+
+    <p>Copyright &copy; AmericanTEFLLink</p>
 </body>
 </html>
