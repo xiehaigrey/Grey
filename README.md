@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CertificateVerification</title>
+    <title>Certificate Verification</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,6 +14,7 @@
             border: 2px dashed green;
             padding: 20px;
             display: inline-block;
+            margin-top: 20px;
         }
         .quit-btn {
             margin-top: 20px;
@@ -32,6 +33,9 @@
             margin-top: 30px;
             font-size: 14px;
             color: gray;
+        }
+        header {
+            display: none; /* Скрываем ненужные элементы */
         }
     </style>
 </head>
