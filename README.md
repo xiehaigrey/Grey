@@ -3,62 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Certification Verification</title>
+    <title>CertificateVerification</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
+            margin: 50px;
+        }
+        .container {
+            border: 2px dashed green;
             padding: 20px;
+            display: inline-block;
+        }
+        .quit-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: grey;
+            color: white;
+            border: none;
+            cursor: pointer;
         }
         .logo {
             width: 200px;
             margin-bottom: 20px;
         }
-        .certificate {
-            border: 2px dashed green;
-            padding: 20px;
-            display: inline-block;
-            text-align: left;
-            background: #f9f9f9;
-        }
-        h1 {
-            font-size: 22px;
-            font-weight: bold;
-        }
-        h2 {
-            color: green;
-        }
-        p {
-            font-size: 18px;
-        }
-        .bold {
-            font-weight: bold;
-        }
-        .quit-button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 18px;
-            background: lightgray;
-            border: none;
-            cursor: not-allowed;
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: gray;
         }
     </style>
 </head>
 <body>
-    <img src="logo.png" alt="Institute Logo" class="logo">
-    <h1>QR Certification <strong>Verification</strong></h1>
-    
-    <div class="certificate">
+    <img src="https://lh6.googleusercontent.com/proxy/Iq8TCFFRl_4Jn_2May1wD2DIdjYOho8DnIdvf6hX7WyZ2VXQSrQf-m5bFkIWXj_F4o3i1gn83tJgm6je3u9ZnWeJFtn11agsSJhc-sbW4O2QDzQ" 
+         alt="TEFL Logo" class="logo">
+
+    <h1>QR Certification Verification</h1>
+    <div class="container">
         <h2>Certificate Found</h2>
-        <p><span class="bold">Name:</span> Antypov Serhii</p>
-        <p><span class="bold">Qualification Achieved:</span></p>
-        <p>The Master 150 Hour TEFL/TESOL Certification</p>
-        <p><span class="bold">Award Date:</span> 09/16/2024</p>
+        <p><strong>Name:</strong> Antypov Serhii</p>
+        <p><strong>Qualification Achieved:</strong><br>The Master 150 Hour TEFL/TESOL Certification</p>
+        <p><strong>Award Date:</strong> 09/16/2024</p>
+    </div>
+    <br>
+    <button class="quit-btn" onclick="closeWindow()">QUIT</button>
+
+    <div class="footer">
+        Copyright © AmericanTEFLLink
     </div>
 
-    <button class="quit-button">QUIT</button>
-
-    <p>Copyright &copy; AmericanTEFLLink</p>
+    <script>
+        function closeWindow() {
+            window.close();
+        }
+    </script>
 </body>
 </html>
+
